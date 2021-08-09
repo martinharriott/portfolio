@@ -14,7 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     height: 100vh;
-    background-color: #0a0908;
+    background-color: #22333b;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -438,7 +438,7 @@ img {
     position: relative;
     top: 0;
     height: 100%;
-    background-color: #0a0908;
+    background-color: #22333b;
 }
 
 .projectContent:hover .overlay, .projectContent:active .overlay, .projectContent:focus .overlay {
@@ -522,9 +522,9 @@ img {
 
 .mm8bdm {
     position: absolute;
-    right: 22%;
+    right: 23%;
     font-size: smaller;
-    bottom: 8%;
+    bottom: 12%;
     max-width: 10%;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
