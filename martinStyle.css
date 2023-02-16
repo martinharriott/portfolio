@@ -186,6 +186,81 @@ img {
     position: relative;
 }
 
+.experience {
+    background-color: #000000;
+    padding: 5% 17% 5% 17%;
+    margin: 0;
+    font-size: 16px;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.experience hr {
+    border-color: white;
+}
+
+.experience h3 hr {
+    border-width: 0.1px;
+    width: 10%;
+    margin-top: 1em;
+    position: relative;
+}
+
+
+.experience ul {
+    float: none;
+    text-align: left;
+}
+
+.experience li {
+    margin: 0.5em;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.experience h3 {
+    float: none;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.experience-item {
+    text-align: center;
+    display: grid;
+    padding: 0;
+    margin: 3em;
+    grid-template-columns: 20% 80%;
+}
+
+.exp-grid-item {
+    text-align: center;
+    padding: 0;
+}
+
+h4 {
+    text-align: left;
+    font-size: 28px;
+    margin: 0;
+    vertical-align: top;
+}
+h4 hr, h5 hr {
+    margin: 0.25em 0;
+    border-width: 0.025em;
+    border-color: white;
+}
+
+h5 {
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    vertical-align: top;
+}
+
 .bio {
     background-color: #5e503f;
     padding: 5% 17% 10% 17%;
@@ -220,6 +295,9 @@ img {
     .bio h3 {
         width: 100%;
     }
+    .experience h3 {
+        width: 100%;
+    }
   }
 
 .timerarun {
@@ -237,7 +315,7 @@ img {
 
 
 @media screen and (max-width: 1200px) {
-    .bio p, .timerarun {
+    .bio p, .timerarun, .experience p {
         width: 90%;
     }
   }
