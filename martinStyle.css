@@ -188,7 +188,7 @@ img {
 
 .experience {
     background-color: #000000;
-    padding: 5% 17% 5% 17%;
+    padding: 5% 15% 5% 15%;
     margin: 0;
     font-size: 16px;
     z-index: 2;
@@ -233,13 +233,24 @@ img {
     text-align: center;
     display: grid;
     padding: 0;
-    margin: 3em;
-    grid-template-columns: 20% 80%;
+    margin: 1em;
+    grid-template-columns: 15% 25% 60%;
 }
 
 .exp-grid-item {
     text-align: center;
+    padding: 0.5em;
+}
+
+#gov {
+    width: 8em;
+    padding-top: 1.25em;
+}
+
+.experience-item img {
+    width: 6em;
     padding: 0;
+    margin: 0;
 }
 
 h4 {
@@ -404,13 +415,14 @@ h5 {
     color: black;
 }
 
-.languages ul{
-    margin-right: 1.5em;
+.languages ul {
     list-style-type: none;
+    text-align: center;
 }
 
-.languages li{
+.languages li {
     margin: .5em;
+    text-align: center;
     display: inline-block;
     color: black;
 }
@@ -535,7 +547,7 @@ h5 {
   }
 
 .grid-item {
-    margin: 2px;
+    margin: 0px;
     padding: 0;
 }
 
