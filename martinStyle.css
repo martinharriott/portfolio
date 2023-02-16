@@ -309,6 +309,12 @@ h5 {
     .experience h3 {
         width: 100%;
     }
+    .experience img {
+        display: none;
+    }
+    .experience-item {
+        grid-template-columns: 100%;
+    }
   }
 
 .timerarun {
@@ -416,12 +422,14 @@ h5 {
 }
 
 .languages ul {
+    padding: 0;
     list-style-type: none;
     text-align: center;
 }
 
 .languages li {
-    margin: .5em;
+    margin: 1em;
+    padding: 0;
     text-align: center;
     display: inline-block;
     color: black;
@@ -432,6 +440,12 @@ h5 {
     width: 50%;
 }
 
+
+.languages img {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.25em;
+}
 @media screen and (max-width: 680px) {
     .languages hr {
         width: 100%;
